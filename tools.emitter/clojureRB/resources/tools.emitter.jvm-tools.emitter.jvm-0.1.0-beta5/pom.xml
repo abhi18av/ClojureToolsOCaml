@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>tools.emitter.jvm</artifactId>
+  <version>0.1.0-beta5</version>
+  <name>${artifactId}</name>
+  <description>A JVM bytecode generator for ASTs compatible with tools.analyzer(.jvm).</description>
+
+  <properties>
+     <clojure.version>1.5.1</clojure.version>
+  </properties>
+
+  <parent>
+    <groupId>org.clojure</groupId>
+    <artifactId>pom.contrib</artifactId>
+    <version>0.1.2</version>
+  </parent>
+
+  <developers>
+    <developer>
+      <id>bronsa</id>
+      <name>Nicola Mometto</name>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>tools.analyzer.jvm</artifactId>
+      <version>0.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>tools.reader</artifactId>
+      <version>0.8.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm-all</artifactId>
+      <version>4.2</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>scm:git:git://github.com/clojure/tools.emitter.jvm.git</connection>
+    <developerConnection>scm:git:git://github.com/clojure/tools.emitter.jvm.git</developerConnection>
+    <url>http://github.com/clojure/tools.emitter.jvm</url>
+    <tag>tools.emitter.jvm-0.1.0-beta5</tag>
+  </scm>
+</project>
