@@ -1,2 +1,8 @@
 
 tools\.emitter/clojureRB/_experiments/rhine-ml-master/
+
+tools\.reader/_resources/
+
+tools\.emitter/_resources/
+
+tools\.analyzer/_resources/
